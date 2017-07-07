@@ -1,0 +1,253 @@
+
+@font-face {
+    font-family: "Futura-light";
+    src: url(fonts/futura-light.TTF) format("truetype");
+}
+
+@font-face {
+    font-family: "Futura-medium";
+    src: url(fonts/futura-medium.TTF) format("truetype");
+}
+
+.bottom-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 120px;
+}
+body{
+    margin-top: 1%;
+}
+a{
+    color: #BE1E5F;
+}
+.logos-top-nav{
+
+     padding: 2%;
+     height: 100%;
+ }
+
+.primary-nav-design{
+    border-radius: 0;
+    border: none;
+    background-color: #ffffff ;
+
+}
+
+.navbar-default .navbar-nav >li >a {
+
+    color: #000;
+    margin-right: 40px;
+    border-bottom: solid 6px;
+    border-color: #fff;
+
+    
+}
+.primary-font{
+    font-weight: bold;
+    font-family: Futura-medium;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #BE1E5F;
+    border-bottom: solid 6px;
+    border-color: #BE1E5F;
+
+}
+
+.navbar-nav > li > a {padding-top:0px !important; padding-bottom:0px !important;}
+.navbar {min-height:25px !important; margin-bottom: 0px !important;}
+
+.secondary-nav-banner{
+    background-color: #BE1E5F;
+    height: 20%;
+    font-family: Futura-light;
+}
+
+hr{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 1px; background-color: #BE1E5F
+}
+
+.hr-white{
+    margin: 0px !important;
+    padding: 0px !important;
+   height:0.5px; background-color: #fff
+}
+
+
+.hr-block{
+    height: 4px;
+}
+.expandable-content{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 25px;
+
+}
+
+
+.bold-program-title{
+    color: #BE1E5F;
+    font-family: Futura-medium;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.bold-program-sub-title{
+    color: #000;
+    font-family: Futura-medium;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.program-desc{
+    color: #000;
+    font-family: Futura-light;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.program-content{
+    text-align: center;
+}
+.panel-default > .panel-heading-custom {
+    background: #BE1E5F;
+    border-radius: 0px;
+    color: #fff;
+    padding: 2%;
+    font-size: 14px;
+    font-family: Futura-light;
+    text-align: center;
+}
+
+
+.panel-default > .panel-heading-black {
+    border: none;
+    background: #000;
+    border-radius: 0px;
+    color: #fff;
+    padding: 2%;
+    font-size: 14px;
+    font-family: Futura-light;
+    text-align: center;
+}
+.panel-body{
+    padding-top: 0px;
+
+
+}
+.panel-image{
+    height: 150px;
+    background-color: darkgrey;
+
+}
+
+.btn-more{
+
+    background-color: #BE1E5F;
+    color: #fff;
+    border-radius: 0px;
+    width: 25%;
+}
+
+.panel-default > .mini-blocks{
+    border: none;
+    background: grey;
+    border-radius: 0px;
+    color: #fff;
+    padding: 2%;
+    font-size: 14px;
+    font-family: Futura-light;
+    text-align: center;
+}
+
+.panel.noborder {
+    border: none;
+    box-shadow: none;
+}
+.panel.noborder > .panel-heading {
+     border: 1px solid #dddddd;
+     border-radius: 0;
+ }
+.user-post{
+    margin-top: 10px
+}
+.panel-footer {
+    border: none;
+    background-color: #fff;
+    border-radius: 0;
+    padding-left: 0px;
+}
+.footer{
+
+    margin-top: 10px;
+    height: 40px;
+    background-color: #333333;
+    text-align: left;
+
+}
+.footer-text{
+    padding-top: 10px;
+    vertical-align: middle;
+    font-family: Futura-medium;
+    color: #fff;
+}
+
+.more{
+    color: #BE1E5F;
+    font-family: Futura-medium;
+    cursor: pointer;
+}
+
+.more-content{
+    display: none;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #333333;
+    color: #fff;
+
+}
+
+
+.navbar-nav > li > .dropdown-menu > li > a{
+
+    color: #fff;
+    font-family: Futura-light;
+
+}
+
+.navbar-nav > li > .dropdown-menu > li > a:hover,.navbar-nav > li > .dropdown-menu > li > a:focus {
+
+    color: #fff;
+    font-family: Futura-light;
+    background-color:#BE1E5F ;
+
+}
+
+
+#secondary-menu {
+    position: relative;
+}
+#secondary-menu.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .nav {
+        width:100%;
+    }
+    .navbar-nav {
+        width:100%;
+        float:none;
+    }
+}
+
